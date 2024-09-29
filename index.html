@@ -15,9 +15,15 @@
             padding: 50px 0;
             text-align: center;
         }
+        .hero img {
+            border-radius: 50%;  
+            width: auto;          
+            max-width: 300px;      
+            max-height: 300px;     
+        }
         .hero h1 {
             font-size: 48px;
-            margin-bottom: 20px;
+            margin-top: 20px;
         }
         .hero p {
             font-size: 24px;
@@ -53,6 +59,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <!-- LinkedIn Profile in Navbar -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/amyzhou999" target="_blank">LinkedIn</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -61,6 +71,8 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
+            <!-- Profile Picture -->
+            <img src="profile.jpeg" alt="Amy Zhou Profile Picture">
             <h1>Welcome to My Website</h1>
             <p>Hi, I'm Amy Zhou, a Business Analytics student passionate about NLP, Data Science, and Analytics.</p>
         </div>
@@ -90,6 +102,19 @@
         <div class="container">
             <h2 class="text-center mb-5">About Me</h2>
             <p>Hello! I’m Amy Zhou, currently pursuing my Master’s degree in Business Analytics at Santa Clara University. I’m passionate about leveraging data and analytics to solve real-world business challenges. My focus areas include NLP, data science, and business insights. I have worked on several data-driven projects that aim to transform raw data into actionable insights.</p>
+        </div>
+    </section>
+
+    <!-- Include PDF Section -->
+    <section id="pdfs" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">My Documents</h2>
+            <div class="text-center">
+                <!-- Link to Cover Letter -->
+                <p><a href="Cover Letter.pdf" class="btn btn-outline-primary" target="_blank">Download Cover Letter</a></p>
+                <!-- Link to Resume -->
+                <p><a href="Amy's  Resume.pdf" class="btn btn-outline-secondary" target="_blank">Download Resume</a></p>
+            </div>
         </div>
     </section>
 
@@ -123,7 +148,9 @@
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 Amy Zhou. All rights reserved.</p>
-            <a href="https://github.com/AmyZhou1124" class="text-white">GitHub</a>
+            <!-- Added LinkedIn in Footer -->
+            <a href="https://www.linkedin.com/in/amyzhou999" target="_blank" class="text-white">LinkedIn</a> |
+            <a href="https://github.com/AmyZhou1124" target="_blank" class="text-white">GitHub</a>
         </div>
     </footer>
 
